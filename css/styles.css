@@ -3,3 +3,8 @@ body{
     background-color: rgb(70, 9, 21);
     color: rgb(91, 206, 250);
 }
+.main{
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
