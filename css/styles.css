@@ -1,10 +1,28 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: rgb(70, 9, 21);
-    color: rgb(91, 206, 250);
+    background-color: rgb(70, 9, 21); /*Transfem color from the pride flag, but darker 7*/ 
+    color: rgb(91, 206, 250); /*Transmasc color from the trans pride flag*/
 }
 .main{
     float: left;
+    width: 55%;
     margin-left: 5%;
     margin-right: 5%;
+    box-sizing: content-box;
+}
+.dont{
+    float: right;
+    margin-top: 150%;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+.hidden{
+    display: none;
+}
+.results{
+    float: right;
+    width: auto;
+    color: white;
+    margin-right: 5%;
+    text-align: left;
 }
