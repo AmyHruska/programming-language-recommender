@@ -16,6 +16,10 @@
 * began javascript functionality
 * completed index.html
 ### Next versions goals are:
-* attempt to get the if than completed for the questions part of the assignment
+* attempt to get the if then completed for the questions part of the assignment
 ***
-### Version as of:
+### Version as of: 16:14 PDT 4-nov-2024:
+* completed basic functionality
+### Next versions goals are:
+* complete README.md & changelog.md
+* refine js/scripts.js
