@@ -15,6 +15,7 @@ body{
     margin-top: 150%;
     margin-bottom: 25px;
     margin-right: 25px;
+    color: white;
 }
 .hidden{
     display: none;
@@ -25,4 +26,11 @@ body{
     color: white;
     margin-right: 5%;
     text-align: left;
+}
+.pleasedont{
+    float: center;
+    margin-top: 150%;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    color: white;
 }

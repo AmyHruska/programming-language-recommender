@@ -10,4 +10,5 @@
 ## Next versions goals are:
 * begin basic java script logic
 * complete index.html
-* Improve my understanding of markdown
+* Improve my understanding of markdown 
+

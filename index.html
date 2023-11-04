@@ -10,9 +10,9 @@
     <h1>Amy's Programming Language Recommender!</h1>
     <div class="main">
         <P>Hello please answer the following questions regarding your personal preferences and make a note of how you feel about them below.</P>
-        <form action="Answers.html" id="questions">
+        <form id="questions">
             <Label>What would be your superpower if you had one?:</Label><br />
-            <select name="superpowers">
+            <select id="superpowers">
                 <option value="0" id="none"></option>
                 <option value="5" id="inv">Invisibility</option>
                 <option value="3" id="fht">Flight</option>
@@ -21,51 +21,52 @@
                 <option value="2" id="telep">Teleportation (safely)</option>
                 <option value="1" id="telek">Telekinesis</option>
             </select><br />
-        <label for="meal">What was the best meal you ate recently?</label> <br />
-            <select name="food">
-                <option value="0" id="none"></option>
-                <option value="5" id="piwpine">Pizza (with Pineapple)</option>
-                <option value="5" id="piwopine">Pizza (with out Pineapple)</option>
-                <option value="5" id="potatoes">Potatoes (served any way)</option>
-                <option value="5" id="steak">Steak</option>
-                <option value="5" id="hotdogs">Hotdogs</option>
-                <option value="5" id="Hakral">Hákarl</option>
-                <option value="5" id="other">Other</option>
+        <label>What was the best meal you ate recently?</label> <br />
+            <select id="food">
+                <option value="0"></option>
+                <option value="5">Pizza (with Pineapple)</option>
+                <option value="5">Pizza (with out Pineapple)</option>
+                <option value="5">Potatoes (served any way)</option>
+                <option value="5">Steak</option>
+                <option value="5">Hotdogs</option>
+                <option value="5">Hákarl</option>
+                <option value="5">Other</option>
             </select><br />
-        <label for="hotdog">Is a hotdog a sandwich?</label> <br />
-            <select name="hddb">
-                <option value="0" id="none"></option>
-                <option value="3" id="yes">Yes!</option>
-                <option value="3" id="no">No!</option>
-                <option value="4" id="taco">Are tacos?</option>
-                <option value="5" id="ches">Cheesesteak?</option>
-                <option value="2" id="donut">Jelly Donuts?</option>
-                <option value="5" id="gyro">Gyros?</option>
+        <label>Is a hotdog a sandwich?</label> <br />
+            <select id="hddb">
+                <option value="0"></option>
+                <option value="3">Yes!</option>
+                <option value="3">No!</option>
+                <option value="4">Are tacos?</option>
+                <option value="5">Cheesesteak?</option>
+                <option value="2">Jelly Donuts?</option>
+                <option value="5">Gyros?</option>
             </select><br />
-        <label for="dvw">Are there more doors or more wheels in the world?</label> <br />
-            <select name="dvw">
-                <option value="0" id="none"></option>
-                <option value="2" id="whl">Wheels!</option>
-                <option value="2" id="dor">Doors!</option>
-                <option value="5" id="gear">Are gears wheels?</option>
-                <option value="5" id="win">Are windows that open, doors?</option>
+        <label>Are there more doors or more wheels in the world?</label> <br />
+            <select id="dvw">
+                <option value="0"></option>
+                <option value="2">Wheels!</option>
+                <option value="2">Doors!</option>
+                <option value="5">Are gears wheels?</option>
+                <option value="5">Are windows that open, doors?</option>
             </select><br />
-        <label for="w1d1">These sound vaguely familiar...</label> <br />
-            <select name="w1d1">
-                <option value="0" id="none"></option>
-                <option value="2" id="no">No...</option>
-                <option value="4" id="yes">Yes they 'vaguely' do...</option>
-                <option value="5" id="w1d1">First day icebreaker questions!</option>
-                <option value="6" id="mis">Isn't one question missing?</option>
-            </select>
+        <label>These sound vaguely familiar...</label> <br />
+            <select id="w1d1">
+                <option value="0"></option>
+                <option value="2">No...</option>
+                <option value="4">Yes they 'vaguely' do...</option>
+                <option value="5">First day icebreaker questions!</option>
+                <option value="6">Isn't one question missing?</option>
+            </select><br />
+            <button></button>
         </form>
     </div>   
     <div id="results" class="results">
         <h2><em>Results</em>:</h2>
-        <p class="hidden" id="result"></p>
+        <p class="hidder" id="result"></p>
       </div>
-    <Div class="dont">
-        <button type="dont">Do not click!</button>
-    </Div>
+    <div class="dont" >
+        <button type="buttonDont" id="dont" >Do not click!</button>
+    </div>
 </body>
 </html>
