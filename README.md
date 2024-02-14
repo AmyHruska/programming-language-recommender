@@ -1,10 +1,10 @@
 # Programming language recommender (PLR)
-#### By: Amy Hruska
-[PLR](https://amyhruska.github.io/programming-language-recommender/) is a quick questionnaire for determining which programming language you should potentially look into.
+#### By: Amy
+[PLR](https://faesearas.github.io/programming-language-recommender/) is a quick questionnaire for determining which programming language you should potentially look into.
 ### Installation
 * Run the below command in the terminal: 
 ````bash
-$ git clone https://github.com/AmyHruska/programming-language-recommender.git
+$ git clone https://github.com/faesearas/programming-language-recommender.git
 ````
 * Then host the folder in a webserver of your choice. 
 ### Technologies Used:
